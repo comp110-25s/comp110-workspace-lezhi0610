@@ -4,10 +4,13 @@ __author__ = "730702700"
 
 
 class Bear:
+    """Class to define Bear"""
+
     age: int
     hunger_score: int
 
-    def __init__(self):
+    def __init__(self) -> None:
+        """New bear with age 0 and hunger score 0"""
         self.age = 0
         self.hunger_score = 0
 

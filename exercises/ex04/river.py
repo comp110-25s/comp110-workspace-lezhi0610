@@ -3,11 +3,13 @@
 __author__ = "730702700"
 
 
-from .fish import Fish
-from .bear import Bear
+from exercises.ex04.fish import Fish
+from exercises.ex04.bear import Bear
 
 
 class River:
+    """Class to define River"""
+
     day: int
     bears: list[Bear]
     fish: list[Fish]
@@ -61,7 +63,7 @@ class River:
         for _ in range(num_new_bears):
             self.bears.append(Bear())
 
-    def view_river(self):
+    def view_river(self) -> None:
         """Visualize the river"""
         print(f"~~~ Day {self.day}: ~~~")
         print(f"Fish population: {len(self.fish)}")
