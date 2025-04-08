@@ -7,3 +7,5 @@ print(perimeter(length=10.0, width=8.0))
 print(perimeter(length=5.0, width=8.0))
 
 "fox"[1]
+
+type(len("cottage"))
