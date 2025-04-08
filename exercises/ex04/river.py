@@ -3,8 +3,8 @@
 __author__ = "730702700"
 
 
-from exercises.ex04.fish import Fish
-from exercises.ex04.bear import Bear
+from .fish import Fish
+from .bear import Bear
 
 
 class River:

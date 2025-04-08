@@ -2,7 +2,7 @@
 
 __author__ = "730702700"
 
-from exercises.ex04.river import River
+from .river import River
 
 
 my_river = River(10, 2)
