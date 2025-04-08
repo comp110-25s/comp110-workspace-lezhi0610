@@ -1,5 +1,7 @@
 """File to define Bear class."""
 
+__author__ = "730702700"
+
 
 class Bear:
     age: int
@@ -14,4 +16,5 @@ class Bear:
         self.hunger_score -= 1
 
     def eat(self, num_fish: int):
+        """Bear eats fish"""
         self.hunger_score += num_fish
