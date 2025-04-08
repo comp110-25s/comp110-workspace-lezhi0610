@@ -4,8 +4,6 @@ __author__ = "730702700"
 
 
 class Fish:
-    """Class to define Fish"""
-
     age: int
 
     def __init__(self) -> None:
