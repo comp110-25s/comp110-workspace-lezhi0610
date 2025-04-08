@@ -8,6 +8,8 @@ from exercises.ex04.bear import Bear
 
 
 class River:
+    """Class to define River"""
+
     day: int
     bears: list[Bear]
     fish: list[Fish]

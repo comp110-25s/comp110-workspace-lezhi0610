@@ -4,6 +4,8 @@ __author__ = "730702700"
 
 
 class Bear:
+    """Class to define Bear"""
+
     age: int
     hunger_score: int
 
