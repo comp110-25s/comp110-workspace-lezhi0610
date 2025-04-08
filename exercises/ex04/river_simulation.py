@@ -1,4 +1,4 @@
-from exercises.EX04.river import River
+from .river import River
 
 my_river = River(10, 2)
 
